@@ -1,18 +1,20 @@
 body{
+    margin: 1.5em;
     background-color: white;
     color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     line-height: 1.6em;
-    margin: 1.5em;
+    
 }
-
-.header{
+section{
+    margin:50px;
+}
+header{
     border: 1px,1px,1px,1px;
     border-style: dotted;
     border-color: black;
 }
-
 img{
     margin-left: 5.0em;
     width: 100px;
@@ -21,15 +23,10 @@ img{
     box-align: left;
     float: left;
 }
-
 .data{
-    margin-left: 20.0em;
-    float: auto;
-    /* box-sizing: border-box; */
-    /* box-align: right; */
+    align-self: auto;
+  
 }
-
-
 #navbar{
     background-color: coral;
     color: wheat;
@@ -42,10 +39,3 @@ img{
     display: inline;
     padding: 15px;
 }
-
-.experience{
-    margin: 150px;
-    padding: 100px;
-}
-
-
