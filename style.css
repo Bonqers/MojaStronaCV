@@ -1,41 +1,53 @@
 body{
-    margin: 1.5em;
     background-color: white;
     color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1.2em;
+    margin:0;
     
 }
-section{
-    margin:50px;
+.header{
+    border: 1px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-bottom-color: blue;
+    border-top-color: aqua;
 }
 header{
-    border: 1px,1px,1px,1px;
-    border-style: dotted;
-    border-color: black;
+    display: flex;
+    justify-content: center;
 }
 img{
-    margin-left: 5.0em;
-    width: 100px;
-    height: 150px;
-    box-sizing: border-box;
-    box-align: left;
-    float: left;
+    width: 6em;
+    height: 10em;
 }
 .data{
-    align-self: auto;
-  
+    margin-left: 2em;
 }
-#navbar{
-    background-color: coral;
-    color: wheat;
+.top{
+    display: flex;
+    justify-content: center;
 }
-#navbar ul{
-    padding: 0;
-    list-style: none;
+.skillsandinterests{
+    display: flex;
+    justify-content: center;
 }
-#navbar li{
-    display: inline;
-    padding: 15px;
+
+
+
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 15px;
+}
+h3{
+    font-size: 13px;
+}
+footer{
+    color: white;
+    font-size: 3em;
+    background-color: black
+    
 }
